@@ -24,7 +24,7 @@
       <!--inizio nav -->
       <nav class="main-nav">
         <!--inizio nav-top -->
-        <section class="nav-top">
+        <div class="nav-top">
           <!--inizio sezione logo -->
           <div class="nav-logo">
             <img src="img/logo.svg" alt="Spotify">
@@ -37,17 +37,17 @@
           <!--fine schermata logo -->
 
           <!--inizio main menu -->
-          <section class="nav-main-menu">
+          <div class="nav-main-menu">
             <ul class="menu-list">
               <li class="active"> <a href="#"> <img src="img/home.svg" alt="Home"><span>Home</span></a></li>
               <li> <a href="#"> <img src="img/search.svg" alt="Cerca"><span>Cerca</span></a></li>
               <li> <a href="#"> <img src="img/libreria.svg" alt="Libreria"><span>La tua libreria</span></a></li>
             </ul>
-          </section>
-          <!--fine main menu -->
+        </div>
+            <!--fine main menu -->
 
-          <!--inizio playlist -->
-          <section class="nav-playlist">
+            <!--inizio playlist -->
+            <div class="nav-playlist">
             <h2>Playlist</h2>
             <a href="#" class="add-playlist"><span>Crea Playlist</span></a>
             <ul class="menu-list">
@@ -59,13 +59,13 @@
               <li><a href="#">Nome Playlist</a></li>
               <li><a href="#">Nome Playlist</a></li>
             </ul>
-          </section>
+            </div>
           <!--fine playlist -->
-        </section>
+        </div>
         <!--fine nav-top -->
 
         <!--inizio nav-bottom -->
-        <section class="nav-bottom">
+        <div class="nav-bottom">
           <div class="app-download">
             <a href="#"><img src="img/download.svg" alt=""><span>Installa app</span></a>
           </div>
@@ -73,12 +73,12 @@
             <div class="user-avatar"><img src="img/profile.svg" alt=""></div>
             <h2 class="user-name">John Doe</h2>
           </div>
-        </section>
+        </div>
         <!--fine nav-bottom -->
       </nav>
       <!--fine nav -->
       <!--inizio content-->
-      <section id="content">
+      <div id="content">
         <!--sezione call to action superiore al contenuto main-->
         <div class="call-to-action">
             <a href="#" class="btn">Effettua l'upgrade</a>
@@ -96,9 +96,82 @@
             </ul>
         </nav>
         <!--fine main content nav-->
-      </section>
-      <!--fine content-->
+        <!--inizio sezione album musicali-->
+        <div class="album">
+            <!--sezione recently played-->
+            <div id="recently-played" class="album-row">
+                <h2>Recently played</h2>
+                <ul class="album-list menu-list">
+                    <li class="album-item">
+                        <div class="album-container">
+                          <img src="img/metal_lifting.jpg" alt="" class="album-img">
+                          <div class="album-layover"><i class="far fa-play-circle"></i></div>
+                        </div>
+                        <div class="album-text">
+                          <h3>Heavy Metal</h3>
+                          <p>Subtitle</p>
+                        </div>
+                    </li>
+                    <li class="album-item">
+                        <div class="album-container">
+                          <img src="img/stranger.jpeg" alt="" class="album-img">
+                          <div class="album-layover"><i class="far fa-play-circle"></i></div>
+                        </div>
+                        <div class="album-text">
+                          <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                          <p>Kyle Dixon &amp; Michael Stein</p>
+                        </div>
+                    </li>
+                    <li class="album-item">
+                        <div class="album-container">
+                          <img src="img/aquietplace.jpeg" alt="" class="album-img">
+                          <div class="album-layover"><i class="far fa-play-circle"></i></div>
+                        </div>
+                        <div class="album-text">
+                          <h3>A quiet place</h3>
+                          <p>Subtitle</p>
+                        </div>
+                    </li>
+                    <li class="album-item">
+                        <div class="album-container">
+                          <img src="img/split.jpeg" alt="" class="album-img">
+                          <div class="album-layover"><i class="far fa-play-circle"></i></div>
+                        </div>
+                        <div class="album-text">
+                          <h3>Split</h3>
+                          <p>Subtitle</p>
+                        </div>
+                    </li>
+                    <li class="album-item">
+                        <div class="album-container">
+                          <img src="img/cure.jpeg" alt="" class="album-img">
+                          <div class="album-layover"><i class="far fa-play-circle"></i></div>
+                        </div>
+                        <div class="album-text">
+                          <h3>A cure for wellness</h3>
+                          <p>Subtitle</p>
+                        </div>
+                    </li>
+                    <li class="album-item">
+                        <div class="album-container">
+                          <img src="img/sinister.jpeg" alt="" class="album-img">
+                          <div class="album-layover"><i class="far fa-play-circle"></i></div>
+                        </div>
+                        <div class="album-text">
+                          <h3>Sinister</h3>
+                          <p>Subtitle</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--fine recently played-->
+        </div>
+        <!--fine album musicali-->
 
+      </div>
+      <!--fine content-->
+    </main>
+    </div>
 </body>
 
 </html>
