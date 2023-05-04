@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -10,68 +11,80 @@
   <link rel="stylesheet" href="css/style.css">
   <title>My Spotify</title>
 </head>
-<body>
-    <div class="background">
-        <!--inizio header-->
-        <!--barra con solo il tasto per upgrade-->
-        <header>
-            <!--errore di valutazione, dovrebbe stare nel main?-->
-        </header>
-        <!--fine header-->
-        <!--inizio main-->
-        <!--main diviso da nav bar a sinistra e corpo centrale con il contento sulla destra, nav bar si sovrappone a header-->
-        <main>
-            <div class="main-container">
-                <div class="main-row">
-                    <!--barra di navigazione-->
-                    <div class="nav-col">
-                        <!-- logo barra di navigazione-->
-                        <div class="nav-logo">
-                            <img src="img/logo.svg" alt="Spotify">
-                        </div>
-                        <!--fine logo-->
-                        <!--menù navigazione-->
-                        <div class="nav-menu">
-                            <ul class="menu-list">
-                              <li class="active"> <a href="#"> <img src="img/home.svg" alt="Home"><span>Home</span></a></li>
-                              <li> <a href="#"> <img src="img/search.svg" alt="Cerca"><span>Cerca</span></a></li>
-                              <li> <a href="#"> <img src="img/libreria.svg" alt="Libreria"><span>La tua libreria</span></a></li>
-                            </ul>
-                        </div>
-                        <!--fine menù di navigazione-->
-                        
-                    </div>
-                    <!--fine barra di navigazione-->
-                    <div class="sub-row">
-                        <!--sezione header-->
-                        <div class="col-header">
-                            <!--bottone call to action header-->
-                            <div class="call-to-action">
-                                <a href="#" class="btn">Effettua l'upgrade</a>
-                            </div>
-                            <!--fine bottone-->
-                        </div>
-                        <!--fine sezione header-->
-                        <div class="col-content">
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <!--fine main-->
-        <!--inizio footer-->
-        <!-- barra di "utility" divisa in tre sezioni-->
-        <footer>
-            <div class="footer-container">
-                <div class="footer-row">
-                    <div class="col-30"></div>
-                    <div class="col-40"></div>
-                    <div class="col-30"></div>
-                </div>
-            </div>
-        </footer>
-        <!--fine footer-->
-    </div>
+<body>
+
+    <!--inizio wrapper-->
+    <div id="wrapper">
+    <!--fine wrapper-->
+
+    <!--inizio main-->
+    <main>
+
+      <!--inizio nav -->
+      <nav class="main-nav">
+        <!--inizio nav-top -->
+        <section class="nav-top">
+          <!--inizio sezione logo -->
+          <div class="nav-logo">
+            <img src="img/logo.svg" alt="Spotify">
+          </div>
+          <!--fine logo -->
+          <!--inizio schermata logo -->
+          <div class="nav-logo-mobile">
+            <img src="img/logo-small.svg" alt="Spotify">
+          </div>
+          <!--fine schermata logo -->
+
+          <!--inizio main menu -->
+          <section class="nav-main-menu">
+            <ul class="menu-list">
+              <li class="active"> <a href="#"> <img src="img/home.svg" alt="Home"><span>Home</span></a></li>
+              <li> <a href="#"> <img src="img/search.svg" alt="Cerca"><span>Cerca</span></a></li>
+              <li> <a href="#"> <img src="img/libreria.svg" alt="Libreria"><span>La tua libreria</span></a></li>
+            </ul>
+          </section>
+          <!--fine main menu -->
+
+          <!--inizio playlist -->
+          <section class="nav-playlist">
+            <h2>Playlist</h2>
+            <a href="#" class="add-playlist"><span>Crea Playlist</span></a>
+            <ul class="menu-list">
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+            </ul>
+          </section>
+          <!--fine playlist -->
+        </section>
+        <!--fine nav-top -->
+
+        <!--inizio nav-bottom -->
+        <section class="nav-bottom">
+          <div class="app-download">
+            <a href="#"><img src="img/download.svg" alt=""><span>Installa app</span></a>
+          </div>
+          <div class="user">
+            <div class="user-avatar"><img src="img/profile.svg" alt=""></div>
+            <h2 class="user-name">John Doe</h2>
+          </div>
+        </section>
+        <!--fine nav-bottom -->
+      </nav>
+      <!--fine nav -->
+      <!--inizio content-->
+      <section id="content">
+        <div class="call-to-action">
+            <a href="#" class="btn">Effettua l'upgrade</a>
+        </div>
+      </section>
+      <!--fine content-->
+
 </body>
+
 </html>
