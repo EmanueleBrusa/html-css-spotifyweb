@@ -281,4 +281,10 @@ main #content .album .album-row > p {
     margin-top: 10px;
 }
 /*sezione artisti più popolari*/
+main #content .album #popular .album-item .album-container img {
+    border-radius: 100%;
+}
+main #content .album #popular .album-item .album-container .album-layover {
+    border-radius: 100%;
+}
 
