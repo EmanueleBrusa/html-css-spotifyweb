@@ -287,4 +287,9 @@ main #content .album #popular .album-item .album-container img {
 main #content .album #popular .album-item .album-container .album-layover {
     border-radius: 100%;
 }
+/*footer*/
+footer {
+    height: 90px;
+    background: #282828;
+}
 
