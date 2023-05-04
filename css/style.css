@@ -222,6 +222,7 @@ main #content .main-content-nav a.active:after {
     background: greenyellow;
 }
 /*sezione album musicali*/
+/*sezione ascoltati di recente*/
 main #content .album .album-row {
     margin: 20px;
 }
@@ -257,4 +258,13 @@ main #content .album .album-list .album-item .album-container .album-layover {
 }
 main #content .album .album-list .album-item .album-container img {
     max-width: 100%;
+}
+main #content .album .album-list .album-item .album-container .album-layover i {
+    display: none;
+}
+main #content .album .album-list .album-item:hover .album-container .album-layover i {
+    display: inline;
+}
+main #content .album .album-list .album-item:hover .album-container .album-layover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
