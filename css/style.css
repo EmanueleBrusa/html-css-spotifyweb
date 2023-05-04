@@ -55,6 +55,14 @@ a.btn:focus{
     height: 100vh;
     background: black;
 }
+p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+main #content .album .album-list .album-item .album-text h3 {
+    font-size: 16px;
+    line-height: 16px;
+}
 /*main e navbar*/
 main{
     height: calc(100% - 90px);
@@ -268,3 +276,9 @@ main #content .album .album-list .album-item:hover .album-container .album-layov
 main #content .album .album-list .album-item:hover .album-container .album-layover {
     background-color: rgba(0, 0, 0, 0.5);
 }
+/*sezione creato per te*/
+main #content .album .album-row > p {
+    margin-top: 10px;
+}
+/*sezione artisti più popolari*/
+
