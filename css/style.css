@@ -288,8 +288,53 @@ main #content .album #popular .album-item .album-container .album-layover {
     border-radius: 100%;
 }
 /*footer*/
-footer {
+footer{
     height: 90px;
     background: #282828;
+}
+footer #player-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/*col-left album*/
+footer #player-section .album-section{
+  width: 230px;
+  height: 100%;
+  padding: 10px;
+}
+footer #player-section .album-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer #player-section .album-section .album-player {
+    width: 20%;
+}
+footer #player-section .album-section .album-player img {
+    width: 100%;
+}
+footer #player-section .album-section .player-album-title {
+    width: 50%;
+    padding-left: 10px;
+}
+footer #player-section .album-section .player-album-title a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 1);
+}
+footer #player-section .album-section .player-album-title h2 {
+    font-size: 12px;
+    line-height: 12px;
+}
+footer #player-section .album-section .player-album-title h2 a{
+    color: rgba(255, 255, 255, 1);
+}
+footer #player-section .album-section .player-album-title p {
+    font-size: 10px;
+}
+footer #player-section .album-section .player-icons i{
+    margin-left: 10px;
 }
 
