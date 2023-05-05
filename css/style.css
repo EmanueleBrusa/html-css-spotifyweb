@@ -337,4 +337,84 @@ footer #player-section .album-section .player-album-title p {
 footer #player-section .album-section .player-icons i{
     margin-left: 10px;
 }
-
+/*sezione centrale footer controller*/
+footer #player-section .controller{
+    width: 40%;
+    height: 100%;
+}
+footer #player-section .controller .controller-icons {
+    height: 60%;
+}
+footer #player-section .controller .controller-icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+footer #player-section .controller .controller-icons i{
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer #player-section .controller .controller-icons .play-icon i{
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+footer #player-section .controller .controller-icons .play-icon:hover i{
+    font-size: 32px;
+}
+footer #player-section .controller .controller-time .controller-time {
+    width: 10%;
+    margin: 0 10px;
+    font-size: 10px;
+    text-align: center;
+}
+footer #player-section .bar {
+    width: 80%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+footer #player-section .bar .controller-elapsed {
+    position: relative;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+footer #player-section .bar .controller-elapsed.perc-20 {
+    width: 20%;
+}
+footer #player-section .bar:hover .controller-elapsed {
+    background-color: greenyellow;
+}
+footer #player-section .bar:hover .controller-elapsed .controller-elapsed-point {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+/*sezione col-right audio*/
+footer #player-section .player-audio ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+footer #player-section .player-audio .player-audio-volume {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer #player-section .player-audio {
+    width: 230px;
+    height: 100%;
+    padding: 10px;
+}
